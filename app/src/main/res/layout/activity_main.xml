@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        tools:context=".MainActivity">
+
+    <ImageView
+            android:id="@+id/ivDashBoard"
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/salam"/>
+
+    <LinearLayout
+            android:id="@+id/mukadimah"
+            android:layout_marginTop="90dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/salam"
+                android:layout_marginBottom="10dp"
+                android:shadowColor="@android:color/white"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+                android:textSize="18sp"
+                android:fontFamily="@font/zrnic_rg"/>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+            android:visibility="visible"
+            android:id="@+id/namaKami"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="50dp"
+            android:layout_below="@+id/mukadimah"
+            android:layout_centerHorizontal="true">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="56sp"
+                android:fontFamily="@font/adine_alternat"
+                android:layout_marginStart="15dp"
+                android:text="@string/fitriAm"
+                android:textStyle="bold"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+                android:textColor="@color/blueLight"/>
+
+        <TextView
+                android:id="@+id/dan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="56sp"
+                android:layout_marginTop="35dp"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/adine_alternat"
+                android:textColor="@color/blueLight"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+                android:text="@string/dan"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="56sp"
+                android:fontFamily="@font/adine_alternat"
+                android:layout_marginTop="75dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="15dp"
+                android:textStyle="bold"
+                android:text="@string/salimH"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+                android:textColor="@color/blueLight"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/namaKami">
+
+
+        <TextView
+                android:visibility="visible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/sayThanks"
+                android:lineSpacingExtra="2dp"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/roboto_regular"/>
+
+        <LinearLayout
+                android:id="@+id/lihatTamu"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"
+                android:background="?attr/selectableItemBackgroundBorderless">
+
+            <TextView
+                    android:visibility="visible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bukuTamu"
+                    android:textColor="@color/blueLightDark"
+                    android:shadowColor="@android:color/black"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="3"/>
+
+            <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/ic_boog_guest"/>
+
+            <TextView
+                    android:text="-"
+                    android:visibility="gone"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/namasaya"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+
+
+            <View
+                    android:layout_width="10dp"
+                    android:layout_height="1dp"
+                    android:background="#ab7c7b7b"
+                    android:layout_gravity="center_vertical"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="atau"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:textColor="@android:color/white"
+                    android:shadowColor="@android:color/black"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="3"/>
+
+
+            <View
+                    android:layout_width="10dp"
+                    android:layout_height="1dp"
+                    android:background="#ab7c7b7b"
+                    android:layout_gravity="center_vertical"/>
+
+        </LinearLayout>
+
+        <TextView
+                android:visibility="visible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/guestAs"
+                android:lineSpacingExtra="2dp"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="3"
+                android:fontFamily="@font/zrnic_rg"/>
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center">
+
+            <android.support.v7.widget.CardView
+                    android:id="@+id/btFacebook"
+                    android:layout_width="120dp"
+                    android:layout_height="30dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_gravity="center_horizontal"
+                    android:foreground="?attr/selectableItemBackgroundBorderless">
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/fbColor"
+                        android:orientation="horizontal">
+
+                    <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="2dp"
+                            android:src="@drawable/facebook_icon"/>
+
+                    <TextView
+                            android:layout_marginStart="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:textSize="15sp"
+                            android:textColor="@android:color/white"
+                            android:text="@string/facebook"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <View
+                    android:layout_width="1dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="#ab7c7b7b"/>
+
+            <android.support.v7.widget.CardView
+                    android:id="@+id/btBook"
+                    android:layout_width="130dp"
+                    android:layout_height="30dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_gravity="center_horizontal"
+                    android:foreground="?attr/selectableItemBackgroundBorderless">
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                    <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/ic_hastag"/>
+
+                    <TextView
+                            android:layout_marginStart="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:textSize="15sp"
+                            android:text="@string/manualBook"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+            android:id="@+id/cekNotif"
+            android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    <TextView
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textColor="@android:color/white"
+            android:text="@string/copyRight"
+            android:textSize="10dp"
+            android:fontFamily="@font/zrnic_rg"
+            android:layout_height="wrap_content"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="3"/>
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Feature</string>
+    <string name="fitriAm">Fitri Amalia</string>
+    <string name="dan">&amp;</string>
+    <string name="salimH">Salim Hartono</string>
+    <string name="facebook">Facebook</string>
+    <string name="salam">Assalamu\'alaikum Wr.. Wb..</string>
+    <string name="sayThanks">Hai gusy, thanks loh. Udah mau buka undangan pernikahan kami. Sebelumnya kami minta maaf
+        kalo
+        nama kalian belum ketulis di halaman <b>Daftar Tamu</b>, tapi tenang guys, kamu bisa pake facebook atau nulis
+        manual
+        tinggal pilih aja mana yang kalian suka.
+    </string>
+    <string name="guestAs">Temui Salim dan Fitri menggunakan :</string>
+    <string name="bukuTamu">Daftar Tamu</string>
+    <string name="manualBook">Tulis Manual</string>
+    <string name="copyRight">Copyright by SRCreative</string>
+    //facebook api
+    <string name="facebook_app_id">2135743249798014</string>
+    <string name="fb_login_protocol_scheme">fb2135743249798014</string>
+    <string name="saySory">Sebelumnya kami minta maaf yang sebesar besarnya apabila nama kalian ada yang belum ketulis
+        di list berikut, kalian tetep bisa masuk menggunakan  atau <b>Tulis Manual</b> dihalaman awal.
+    </string>
+    <string name="titleManualBook">Halo Sob, silahkan isi buku tamunya. Pastikan kalian menggunakan nama asli kalian supaya
+    kami bisa mengenali kalian.</string>
+    <string name="name">nama</string>
+    <string name="comeFrom">Kamu dari mana?</string>
+    <string name="insertPhoto">Unggah Foto</string>
+    <string name="confirm">Konfirmasi</string>
+    <string name="namaLengkap">nama lengkap</string>
+    <string name="cityName">Nama kota kalian?</string>
+    <string name="listGuest">Daftar Tamu</string>
+    <string name="search">Cari Nama</string>
+    <string name="akad">Akad</string>
+    <string name="resepsi">Resepsi</string>
+    <string name="lokasi">Lokasi</string>
+    <string name="tglAkad">11 Juni 2019 | 08:00 WIB</string>
+    <string name="tglResepsi">12 Juni 2019 | 08:00 WIB</string>
+    <string name="makeSUreInternet">Upps, Sepertinya terjadi masalah pada internetmu sob, mungkin kamu bisa memriksanya.</string>
+    <string name="uploadImage">Unggah Foto</string>
+    <string name="deleteImage">Hapus Foto</string>
+    <string name="yourPhone">Nomor Telephone Kamu?</string>
+    <string name="xampleNumber">85972709291</string>
+    <string name="bookGuest">Buku Tamu</string>
+    <!--url-->
+    <string name="mainFrame">https://lh3.googleusercontent.com/CE00felYhy-hV3UjrixXEynHkBhbB20WIxj-baakohkWDVDUV2V2lV_HxtP0z6hkkA4HjApXFN4ZPV2UNcY-Vez2S8OZJEzSF67LHuPPPH2BvnPLY4SP1gQHSQNJa9VhabrzhhIeGQ=w2400</string>
+    <string name="frame2">https://lh3.googleusercontent.com/F_JSTig3HsVGYqqipQSyT7C7a3TN9vlcHW4mVbkiw7Pip0yX3RwDd6jjzx2EdaBmGTG8iKdEW3E6tKm6dklc75NKVawcCHFbI7o3p3ps6DJ2HAEQRtw8rq9tRnYolLnrnCwqeT_ASQ=w2400</string>
+    <string name="imageUrl">https://salimhartono.000webhostapp.com/bkk_images/</string>
+    <string name="tamuDasboard">https://lh3.googleusercontent.com/5UuYlyuygNqfURFWlC7qZc0x0Z7tnnNvVLIyrBnte03RjpLoq8JM2FXCdJrvevhYUwzfgqxLrSkYt4WiBh3J47O3Y_QN0eKrB2TcOlqwMu-7wwuyDawMTjdouwP2KnHSXHDMJrJMWg=w2400</string>
+
+</resources>
